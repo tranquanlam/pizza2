@@ -8,7 +8,6 @@ class control extends Component {
         this.state = ({
             data: this.props.dbPro.amount,
             total: 0,
-
             getDataSourceState(id, data) {
                 let number = 0;
                 data.forEach(element => {
